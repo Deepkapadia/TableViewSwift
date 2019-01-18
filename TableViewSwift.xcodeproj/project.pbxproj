@@ -14,6 +14,7 @@
 		22D15C821EDC2EBD001EC7A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D15C801EDC2EBD001EC7A7 /* LaunchScreen.storyboard */; };
 		22D15C8D1EDC2EBD001EC7A7 /* TableViewSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D15C8C1EDC2EBD001EC7A7 /* TableViewSwiftTests.swift */; };
 		22D15C981EDC2EBD001EC7A7 /* TableViewSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D15C971EDC2EBD001EC7A7 /* TableViewSwiftUITests.swift */; };
+		75A4F93E21F1982300318E7C /* image-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75A4F93D21F1982300318E7C /* image-1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		22D15C931EDC2EBD001EC7A7 /* TableViewSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D15C971EDC2EBD001EC7A7 /* TableViewSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSwiftUITests.swift; sourceTree = "<group>"; };
 		22D15C991EDC2EBD001EC7A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A4F93D21F1982300318E7C /* image-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		22D15C6B1EDC2EBD001EC7A7 = {
 			isa = PBXGroup;
 			children = (
+				75A4F93D21F1982300318E7C /* image-1.jpg */,
 				22D15C761EDC2EBD001EC7A7 /* TableViewSwift */,
 				22D15C8B1EDC2EBD001EC7A7 /* TableViewSwiftTests */,
 				22D15C961EDC2EBD001EC7A7 /* TableViewSwiftUITests */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22D15C821EDC2EBD001EC7A7 /* LaunchScreen.storyboard in Resources */,
+				75A4F93E21F1982300318E7C /* image-1.jpg in Resources */,
 				22D15C7F1EDC2EBD001EC7A7 /* Assets.xcassets in Resources */,
 				22D15C7D1EDC2EBD001EC7A7 /* Main.storyboard in Resources */,
 			);
@@ -503,6 +507,7 @@
 				22D15C9E1EDC2EBD001EC7A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22D15C9F1EDC2EBD001EC7A7 /* Build configuration list for PBXNativeTarget "TableViewSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				22D15CA11EDC2EBD001EC7A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22D15CA21EDC2EBD001EC7A7 /* Build configuration list for PBXNativeTarget "TableViewSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				22D15CA41EDC2EBD001EC7A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

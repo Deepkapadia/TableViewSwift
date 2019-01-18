@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22D15C731EDC2EBD001EC7A7"
+               BuildableName = "TableViewSwift.app"
+               BlueprintName = "TableViewSwift"
+               ReferencedContainer = "container:TableViewSwift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22D15C871EDC2EBD001EC7A7"
+               BuildableName = "TableViewSwiftTests.xctest"
+               BlueprintName = "TableViewSwiftTests"
+               ReferencedContainer = "container:TableViewSwift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22D15C921EDC2EBD001EC7A7"
+               BuildableName = "TableViewSwiftUITests.xctest"
+               BlueprintName = "TableViewSwiftUITests"
+               ReferencedContainer = "container:TableViewSwift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "22D15C731EDC2EBD001EC7A7"
+            BuildableName = "TableViewSwift.app"
+            BlueprintName = "TableViewSwift"
+            ReferencedContainer = "container:TableViewSwift.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "22D15C731EDC2EBD001EC7A7"
+            BuildableName = "TableViewSwift.app"
+            BlueprintName = "TableViewSwift"
+            ReferencedContainer = "container:TableViewSwift.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "22D15C731EDC2EBD001EC7A7"
+            BuildableName = "TableViewSwift.app"
+            BlueprintName = "TableViewSwift"
+            ReferencedContainer = "container:TableViewSwift.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
